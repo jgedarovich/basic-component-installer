@@ -147,8 +147,6 @@ class Installer extends LibraryInstaller
         $processes = array(
             // Copy the assets to the Components directory.
             "ComponentInstaller\\Process\\CopyProcess",
-            // Compile the require-built.js file.
-            "ComponentInstaller\\Process\\BuildJsProcess",
         );
 
         // Initialize and execute each process in sequence.
