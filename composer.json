@@ -1,14 +1,8 @@
 {
-    "name": "robloach/component-installer",
-    "description": "Allows installation of Components via Composer.",
+    "name": "jgedarovich/basic-component-installer",
+    "description": "fork of robloach/component-installer with assetic/requirejs dependencies removed",
     "type": "composer-installer",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Rob Loach",
-            "homepage": "http://robloach.net"
-        }
-    ],
     "autoload": {
         "psr-0": {
             "ComponentInstaller": "src/"
@@ -19,7 +13,6 @@
     },
     "require": {
         "php": ">=5.3.2",
-        "kriswallsmith/assetic": "1.*",
         "composer-plugin-api": "1.0.0"
     },
     "require-dev": {
